@@ -2,12 +2,28 @@
 
 **The final version of this document will be published on Azure Docs: https://docs.microsoft.com/en-us/azure/azure-monitor/**
 
-## TODO: Description
+## Overview
 
-- one setting for proxy configurations https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-faq#can-i-monitor-an-intranet-web-server
+Connection strings provides Application Insight users with a single configuration setting, eliminating the need for configuring multiple proxy settings at the same time. Highly useful for intranet web servers, private/sovereign or hybrid cloud environments looking to send in data to the monitoring service.
+
+The key value pairs provide an easy way for users to define a prefix suffix combination for each ai product. For more details, refer here. 
+
+Scenario Overview 
+
+Customer scenarios where we visualize this having the most impact are the following:-
+
+1) Sovereign or Hybrid cloud environments
+
+In disconnected private enviornments users can now send data to Azure Insights(more info here). With Connection strings this becomes a much simpler step
+
+.... fill in more....why
+
 - Government clouds. https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-monitoringandmanagement#net-with-applicationinsightsconfig
 
-## Where can I find my connection string?
+- one setting for proxy configurations https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-faq#can-i-monitor-an-intranet-web-server
+
+
+## Finding my connection string?
 
 Your connection string is displayed on the Overview blade of your Application Insights resource.
 
