@@ -24,25 +24,25 @@ With connection strings, configuring the application insight config file allows 
 
 ## Getting Started
 
-## Finding my connection string?
+### Finding my connection string?
 
 Your connection string is displayed on the Overview blade of your Application Insights resource.
 
 <img src="https://user-images.githubusercontent.com/28785781/67131682-7c1d0b00-f1ba-11e9-960d-616880cbb41c.png" width="1000">
 
 
-## Schema
+### Schema
 
-### Max Length
+#### Max Length
 
 The connection has a maximum supported length of 4096 characters.
 
-### Key-Value pairs
+#### Key-Value pairs
 
 Connection string consists of a list of settings represented as key-value pairs separated by semicolon:
 `key1=value1;key2=value2;key3=value3`
 
-### Syntax
+#### Syntax
 
 - `InstrumentationKey` (ex: 00000000-0000-0000-0000-000000000000)
    The connection string is a **required** field.
@@ -56,13 +56,13 @@ Connection string consists of a list of settings represented as key-value pairs 
    - `ProfilerEndpoint` (ex: https://profiler.applicationinsights.azure.com)
    - `SnapshotEndpoint` (ex: https://snapshot.applicationinsights.azure.com)
 
-### Endpoint Schema
+#### Endpoint Schema
 
 `<prefix>.<suffix>`
 - Prefix: Defines a service. 
 - Suffix: Defines the common domain name.
 
-#### Valid Suffixes
+##### Valid Suffixes
 
 Here's a list of valid suffixes 
 - applicationinsights.azure.cn
@@ -72,7 +72,7 @@ Here's a list of valid suffixes
 See also: https://docs.microsoft.com/en-us/azure/azure-monitor/app/custom-endpoints#regions-that-require-endpoint-modification
 
 
-#### VALID Prefixes
+##### VALID Prefixes
 
 **TODO: Include links to each individual product for reference**
 
